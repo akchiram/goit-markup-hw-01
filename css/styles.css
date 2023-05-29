@@ -1,6 +1,8 @@
 :root{
 --background-color:#FFFFFF;
 --b-color: #2e2f42;
+--button-color:#4d5ae5;
+--button-bc:#F4F4FD;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -138,4 +140,24 @@ body {
 .span-footer{
     color: #f4f4fd;
 }
+
+.button-all{
+    font-family: "Roboto", sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--button-color);
+    background-color: var(--button-bc);
+    cursor: pointer;
+}
+.button-all:hover{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.button-all:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
 
