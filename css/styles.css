@@ -39,3 +39,7 @@ body {
     color:(var(--color));
 }
 
+.address{
+    font-style: normal;
+    
+}
