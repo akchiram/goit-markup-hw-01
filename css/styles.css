@@ -1,6 +1,6 @@
 :root{
 --background-color:#FFFFFF;
---color: #2e2f42;
+--b-color: #2e2f42;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -22,6 +22,12 @@ body {
 .link {
     text-decoration: none
 }
+.link:hover{
+    color: #404bbf;
+}
+.link:focus{
+    color: #404bbf;
+}
 
 .span {
     color: #2e2f42;
@@ -36,16 +42,22 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:(var(--color));
+    color:(var(--b-color));
+    
 }
-
+.home:hover{
+    color: #404bbf;
+}
+.home:focus{
+    color: #404bbf;
+}
 .address{
     font-style: normal;
     
 }
 
 .motto{
-    background-color:(var(--color))
+    background-color:(var(--b-color))
 }
 .motto-text{
     font-size: 56px;
