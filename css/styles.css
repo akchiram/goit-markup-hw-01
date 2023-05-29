@@ -5,7 +5,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color:(var(--background-color));
+    background-color: var(--background-color);
 
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .span {
-    color: #2e2f42;
+    color: #f4f4fd;
 }
 
 .list {
@@ -42,7 +42,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:(var(--b-color));
+    color: var(--b-color);
     
 }
 .home:hover{
@@ -57,7 +57,7 @@ body {
 }
 
 .motto{
-    background-color:(var(--b-color))
+    background-color: var(--b-color)
 }
 .motto-text{
     font-size: 56px;
@@ -87,7 +87,7 @@ body {
     font-size: 20px;
     line-height: 1.2 ;
     letter-spacing: 0.02em;
-    color:(var(--b-color));
+    color: var(--b-color);
     
 } 
 .section-title{
@@ -102,6 +102,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--b-color);
 
 }
 .section-team{
@@ -118,7 +119,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
+    color: var(--b-color);
 }
 
 .duties{
@@ -131,6 +132,6 @@ body {
 .footer-text{
     line-height: 1.5;
     letter-spacing: 0.02em ;
-    
+
 }
 
