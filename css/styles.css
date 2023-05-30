@@ -3,6 +3,7 @@
 --b-color: #2e2f42;
 --button-color:#4d5ae5;
 --button-bc:#F4F4FD;
+--pt-color: #434455;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -160,4 +161,17 @@ body {
     background-color: #404BBF;
 }
 
+.product{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2 ;
+    letter-spacing: 0.02em;
+    color: var(--b-color)
+}
 
+.product-type{
+    font-size: 16px;
+    line-height: 1.5 ;
+    letter-spacing: 0.02em ;
+    color:var(--pt-color);
+}
