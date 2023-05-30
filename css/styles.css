@@ -25,9 +25,7 @@ body {
 .link {
     text-decoration: none;
 }
-.link:hover{
-    color: #404bbf;
-}
+.link:hover,
 .link:focus{
     color: #404bbf;
 }
@@ -52,9 +50,7 @@ body {
     color: var(--b-color);
     
 }
-.home:hover{
-    color: #404bbf;
-}
+.home:hover,
 .home:focus{
     color: #404bbf;
 }
@@ -89,9 +85,7 @@ body {
     color: #ffffff;
     cursor: pointer ;
 }
-.button:hover{
-    background-color: #404BBF;
-}
+.button:hover,
 .button:focus{
     background-color: #404BBF;
 }
@@ -167,10 +161,7 @@ body {
     background-color: var(--button-bc);
     cursor: pointer;
 }
-.button-all:hover{
-    color: #FFFFFF;
-    background-color: #404BBF;
-}
+.button-all:hover,
 .button-all:focus{
     color: #FFFFFF;
     background-color: #404BBF;
