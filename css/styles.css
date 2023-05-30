@@ -36,6 +36,10 @@ body {
     color: #2e2f42;
 }
 
+.span-footer{
+    color: #f4f4fd ;
+}
+
 .list {
     list-style: none;
 }
@@ -145,6 +149,7 @@ body {
 .footer-text{
     line-height: 1.5;
     letter-spacing: 0.02em ;
+    color: var(--button-bc);
 
 }
 
