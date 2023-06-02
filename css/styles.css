@@ -181,3 +181,7 @@ body {
     letter-spacing: 0.02em ;
     color:var(--pt-color);
 }
+
+img{
+    display: block;
+}
