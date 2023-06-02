@@ -142,7 +142,9 @@ body {
 }
 .section-team{
     background-color: #F4F4FD;
-    margin-bottom: 72px; 
+    margin-bottom: 72px;
+    padding: 120px 0;
+    
 }
 
 .team-member{
