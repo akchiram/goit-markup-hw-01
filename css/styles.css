@@ -108,7 +108,11 @@ body {
 
 .general{
     padding: 120px 0;
+}
 
+.personage{
+    padding: 32px 16px;
+    
 }
 
 .button:hover,
