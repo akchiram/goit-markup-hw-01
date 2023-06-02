@@ -45,6 +45,7 @@ body {
     list-style: none;
     display: flex; 
     gap: 40px;
+    gap: 24px;
 }
 
 .home {
@@ -83,6 +84,11 @@ body {
     color: #ffffff;
     max-width: 496px;
 }
+.element{
+    width: calc((100% - 72px) / 4);
+}
+
+
 .button{
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -116,7 +122,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--b-color);
     max-width: 496px; 
-    
+    margin-bottom: 8px; 
 } 
 .section-title{
     font-size: 16px;
@@ -132,10 +138,11 @@ body {
     text-transform: capitalize;
     color: var(--b-color);
 
+
 }
 .section-team{
     background-color: #F4F4FD;
-
+    margin-bottom: 72px; 
 }
 
 .team-member{
@@ -226,4 +233,8 @@ img{
     display: flex; 
     align-items: center;
 
+}
+
+.to-do{
+    padding-bottom: 120px;
 }
