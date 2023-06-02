@@ -112,7 +112,7 @@ body {
 
 .personage{
     padding: 32px 16px;
-    
+
 }
 
 .button:hover,
@@ -154,6 +154,7 @@ body {
 .team-member{
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px; 
+    width: calc((100% - 72px) / 4); 
 }
 .name{
     font-weight: 500;
