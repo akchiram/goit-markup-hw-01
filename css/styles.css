@@ -72,6 +72,8 @@ body {
 
 .motto{
     background-color: var(--b-color);
+    padding: 188px 0;
+
 }
 .motto-text{
     font-size: 56px;
@@ -79,6 +81,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 .button{
     background-color: #4D5AE5;
@@ -89,7 +92,19 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer ;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
 }
+
+.general{
+    padding: 120px 0;
+
+}
+
 .button:hover,
 .button:focus{
     background-color: #404BBF;
@@ -100,6 +115,7 @@ body {
     line-height: 1.2 ;
     letter-spacing: 0.02em;
     color: var(--b-color);
+    max-width: 496px; 
     
 } 
 .section-title{
