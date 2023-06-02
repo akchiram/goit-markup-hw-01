@@ -48,6 +48,10 @@ body {
     display: flex; 
     gap: 40px;
     gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
+    flex-wrap: wrap;
+    row-gap: 48px; 
 }
 
 .home {
@@ -200,6 +204,11 @@ body {
     color: var(--button-color);
     background-color: var(--button-bc);
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border: 1px solid transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 .button-all:hover,
 .button-all:focus{
@@ -254,4 +263,9 @@ img{
 
 .main-portfolio{
     padding: 96px 0 120px 0;
+}
+
+.card-list{
+    width: calc((100% - 48px) / 3); 
+    
 }
