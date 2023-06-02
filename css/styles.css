@@ -21,6 +21,8 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 
@@ -162,17 +164,20 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--b-color);
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .duties{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
+    text-align: center; 
 }
 
 .footer{
     background-color: var(--b-color);
+    padding: 100px 0;
 }
 
 .footer-text{
