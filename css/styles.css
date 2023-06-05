@@ -44,15 +44,24 @@ body {
     color: #f4f4fd ;
 }
 
-.list {
+.menu-list{
     list-style: none;
     display: flex; 
-    gap: 40px;
-    gap: 24px;
     justify-content: center;
     margin-bottom: 72px;
     flex-wrap: wrap;
     row-gap: 48px; 
+    gap: 40px;
+}
+
+.list {
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 72px;
+    flex-wrap: wrap;
+    row-gap: 48px; 
+    gap: 24px;
 }
 
 .home {
