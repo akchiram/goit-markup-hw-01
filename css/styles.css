@@ -4,7 +4,7 @@
 --button-color:#4d5ae5;
 --button-bc:#F4F4FD;
 --pt-color: #434455; 
---border-button:  solid #e7e9fc ;
+--border-button: #e7e9fc ;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -215,8 +215,7 @@ body {
     background-color: var(--button-bc);
     cursor: pointer;
     padding: 12px 24px;
-    border: 1px var(--border-button);
-    border: 1px solid transparent;
+    border: 1px solid transparent var(--border-button);
     border-radius: 4px;
     
 }
