@@ -6,6 +6,7 @@
 --pt-color: #434455; 
 --border-button: #e7e9fc ;
 }
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -101,7 +102,7 @@ body {
     max-width: 496px;
 }
 .element{
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 
