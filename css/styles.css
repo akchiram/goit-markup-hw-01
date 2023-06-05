@@ -223,6 +223,7 @@ body {
 .button-all:focus{
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent
 }
 
 .product{
