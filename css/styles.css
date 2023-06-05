@@ -232,6 +232,7 @@ body {
     line-height: 1.2 ;
     letter-spacing: 0.02em;
     color: var(--b-color);
+    margin-bottom: 8px;
 }
 
 .product-type{
