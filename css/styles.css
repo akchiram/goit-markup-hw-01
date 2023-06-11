@@ -24,12 +24,13 @@ p{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    margin: 0;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
 
 .section {
-    padding: 120px 0;
+    padding-bottom: 120px ;
     }
 
 .link {
@@ -146,6 +147,7 @@ body {
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .button{
@@ -241,7 +243,6 @@ padding-bottom: 120px;
                                 /***** section 4 *****/
 .section-team{
     background-color: #F4F4FD;
-    margin-bottom: 72px;
     padding: 120px 0;
 }
 
@@ -285,6 +286,7 @@ padding-bottom: 120px;
 }
 
 .footer-text{
+    line-height: 24px;
     width:  264px ;
     letter-spacing: 0.02em ;
     color: var(--button-bc);
@@ -307,8 +309,9 @@ padding-bottom: 120px;
             /***************************** PORTFOLIO *******************************/
                                 /***** main-portfolio *****/
 .main-portfolio{
-    padding: 96px 0 120px 0;
+    padding-top: 96px;
 }
+
 
                                 /***** navigation-portfolio *****/
 .button-all{
@@ -331,11 +334,36 @@ padding-bottom: 120px;
     background-color: #404BBF;
     border: 1px solid transparent
 }
+
+.portfolio-button{
+
+}
+
+.prt-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px
+}
+
                                 /***** card-portfolio *****/
 
-.card{
+.card-card{    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
     row-gap: 48px;
+    justify-content: center;}
+
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+    justify-content: center;
 }
+
 
 .card-list{
     width: calc((100% - 48px) / 3); 
@@ -345,8 +373,8 @@ padding-bottom: 120px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
+
 
 .product{
     font-weight: 500;
