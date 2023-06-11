@@ -136,6 +136,7 @@ body {
 .motto{
     background-color: var(--b-color);
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7), );
 }
 
 .motto-text{
@@ -357,11 +358,7 @@ padding-bottom: 120px;
 
 
 .card{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    row-gap: 48px;
-    justify-content: center;
+    
 }
 
 
