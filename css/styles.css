@@ -205,6 +205,12 @@ body {
     width: calc((100% - 3 * 24px) / 4);
 }
 
+.img-icons{
+    width: 264px;
+    height: 112px;
+}
+
+
 .list-text{
     font-weight: 500;
     font-size: 20px;
@@ -274,6 +280,10 @@ padding-bottom: 120px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center; 
+}
+
+.social-list{
+    
 }
 
 
