@@ -149,11 +149,11 @@ body {
 .motto{
     background-color: var(--b-color);
     padding: 188px 0;
-    background-image: linear-gradientrgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7), url(/images/people-office\ 1.png);
+    background-image: linear-gradient rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7), url(/images/people-office\ 1.png);
     max-width: 1440px;
     background-repeat: no-repeat; 
     background-size: cover; 
-    
+
 }
 
 .motto-text{
@@ -224,6 +224,12 @@ body {
 .img-icons{
     width: 264px;
     height: 112px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background-color: #f4f4fd; 
+    border-radius: 4px; 
+    margin-bottom: 8px; 
 }
 
 
@@ -299,6 +305,10 @@ padding-bottom: 120px;
 }
 
 .social-list{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+}
+
+.social-media{
 
 }
 
