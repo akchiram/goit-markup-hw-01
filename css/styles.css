@@ -126,6 +126,7 @@ body {
     height: 4px; 
     background-color: #404bbf; 
     border-radius: 2px;
+    content: '' 
 
 }
 
@@ -333,6 +334,21 @@ padding-bottom: 120px;
 
 .svg-icon{
     fill:#f4f4fd;
+}
+
+
+                                /***** section 4 *****/
+
+.corporation{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customers{
+    font-size: 36px;
+    line-height: 1.11;
+    color:#2e2f42;
+    margin-bottom: 72px; 
 }
 
 
