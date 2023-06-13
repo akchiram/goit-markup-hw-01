@@ -5,6 +5,8 @@
 --button-bc:#F4F4FD;
 --pt-color: #434455; 
 --border-button: #e7e9fc ;
+--c-cast: #8e8f99;
+
 }
 
 img{
@@ -337,7 +339,7 @@ padding-bottom: 120px;
 }
 
 
-                                /***** section 4 *****/
+                                /***** section 5 *****/
 
 .corporation{
     padding-top: 120px;
@@ -349,6 +351,39 @@ padding-bottom: 120px;
     line-height: 1.11;
     color:#2e2f42;
     margin-bottom: 72px; 
+    text-align: center;
+}
+
+.cust-list{
+    display: flex;
+    gap: 24px;
+}
+
+.cast-element{
+    width: calc((100% - 120px) / 6); 
+    height: 88px;
+}
+
+.cast-link{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    color: var(--c-cast);
+    border-color: #404bbf;
+
+}
+.cast-link:hover,
+.cast-link:focus{
+    border-color: #404bbf;
+    color: #404bbf; 
+}
+
+.cast-logo{
+    fill: currentColor; 
 }
 
 
