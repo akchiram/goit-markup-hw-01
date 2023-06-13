@@ -149,8 +149,11 @@ body {
 .motto{
     background-color: var(--b-color);
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(/images/people-office\ 1.png);
-    background-repeat: no-repeat;
+    background-image: linear-gradientrgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7), url(/images/people-office\ 1.png);
+    max-width: 1440px;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
 }
 
 .motto-text{
