@@ -150,7 +150,6 @@ body {
 
                                 /***** section 1 *****/
 .motto {
-    background-color: var(--b-color);
     padding: 188px 0;
     background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
