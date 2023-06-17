@@ -128,7 +128,9 @@ body {
     background-color: #404bbf; 
     border-radius: 2px;
     content: '' 
-
+}
+.head-li{
+    color: #404bbf
 }
 
                                 /***** address *****/
