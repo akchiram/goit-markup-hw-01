@@ -112,7 +112,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:  #404bbf;
     padding: 24px 0;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)  ;
@@ -405,7 +404,7 @@ padding-bottom: 120px;
     align-items: baseline;
 }
 
-.foot-con-1{
+.foot-logo-text{
     margin-right: 120px ; 
 }
 
