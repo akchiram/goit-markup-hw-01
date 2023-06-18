@@ -6,7 +6,7 @@
 --pt-color: #434455; 
 --border-button: #e7e9fc ;
 --c-cast: #8e8f99;
-
+--checked-color: #404bbf;
 }
 
 img{
@@ -811,6 +811,46 @@ padding-bottom: 120px;
     justify-content: center; 
     fill: transparent; 
 }
+
+.check-box-privacy:checked + .label-span{
+    background-color: var(--checked-color);
+    border: none;
+    fill: #F4F4FD;
+
+}
+
+.label-linc-privasy{
+    color:var(--button-color);
+}
+
+.submit-btn{
+    display: block; 
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto",sans-serif;
+    font-style: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5 ;
+    letter-spacing: 0.04em ;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+
+
+
+
+
 
 
 
