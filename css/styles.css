@@ -84,6 +84,19 @@ body {
     color: var(--checked-color);
 }
 
+.home.active::after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    color: var(--button-bc);
+    background-color: var(--button-bc);
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    border-radius: 2px;
+    }
+
+
 
                                 /***** logo *****/
 .logo {
