@@ -377,7 +377,6 @@ padding-bottom: 120px;
 .team-member{
     background-color: var(--background-color);
     border-radius: 0px 0px 4px 4px; 
-    width: calc((100% - 72px) / 4); 
     box-shadow: var(--box-shadow);
 }
 
@@ -954,7 +953,6 @@ padding-bottom: 120px;
 
 
 }
-
 
 
 
