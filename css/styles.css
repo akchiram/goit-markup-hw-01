@@ -1,7 +1,5 @@
 
 
-/* !загальні стилі */
-
 :root{
     --background-color:#FFFFFF;
     --b-color: #2e2f42;
@@ -100,47 +98,7 @@
     margin: 0 auto;
     padding: 0 15px;
 }
-                                /***** logo *****/
-.logo {
-    font-family: "Raleway",  sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--button-color);
-    margin-right: 76px;
-}
 
-.span {
-    color: var(--b-color);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*! Медіа-запит для планшетів та середніх пристроїв  768px > 1023px*/
-@media (min-width: 768px) and (max-width: 1023px) {
-
-}
-
-
-
-/************!Медіа-запит для desctop 1023px > ***********/
-
-
-@media (min-width: 1023px)
-{
 
 
                                 /***** heder *****/
@@ -161,11 +119,21 @@
     align-items: center;
 }
 
+                                /***** logo *****/
+.logo {
+    font-family: "Raleway",  sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--button-color);
+    margin-right: 76px;
+}
 
-
-
-
-
+.span {
+    color: var(--b-color);
+}
 
 
 
@@ -951,8 +919,6 @@ padding-bottom: 120px;
 
 
 
-
-}
 
 
 
