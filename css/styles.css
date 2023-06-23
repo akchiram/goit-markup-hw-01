@@ -817,7 +817,7 @@ padding-bottom: 120px;
     padding-left: 38px;
     outline: transparent;
     border-color:var(--button-color); 
-    transition: border-color var(--transition); 
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     border: var(--inp-mod-border);
     fill: transparent;  
 }
@@ -830,7 +830,7 @@ padding-bottom: 120px;
     left: 16px;
     top: 50%; 
     transform: translateY(-50%); 
-    transition: fill var(--transition); 
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .input-modal:focus + .modal-icon{
     fill: var(--button-color);
@@ -853,7 +853,7 @@ padding-bottom: 120px;
     padding: 8px 16px;  
     outline: transparent;
     resize: none; 
-    transition: border-color var(--transition); 
+    transition:  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); ; 
 }
 .comment-text:focus{
     border-color: var(--button-color);
@@ -874,7 +874,7 @@ padding-bottom: 120px;
     width: 16px; 
     height: 16px; 
     border-radius: 2px;
-    transition: background-color var(--transition), border var(--transition),fill var(--transition);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex; 
     align-items: center;
     justify-content: center; 
@@ -912,7 +912,7 @@ padding-bottom: 120px;
     font-weight: 500;
     line-height: 1.5 ;
     letter-spacing: 0.04em ;
-    transition: background-color var(--transition);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: auto;
 }
 
